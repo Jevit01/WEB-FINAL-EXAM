@@ -1,3 +1,12 @@
+// This is definitely a start. Stil missing the ability
+// to add a comment and to do favoriting.
+// Search should filter upon submit, not on change.
+
+// Missing componenets for poplular and genre with their functionality.
+// Please refer to the instructions for those details.
+
+// Good backend, you got this, keep on a pushing!
+
 import React, { Component } from "react";
 const axios = require("axios");
 

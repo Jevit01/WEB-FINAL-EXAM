@@ -1,3 +1,8 @@
+// I recommend using NavLink instead. That way you can 
+// style the "active" link.
+// Looks good. A little more on the css to get them vertically
+// styled but I want the functionality of things working first.
+
 import React from "react";
 import { Link } from "react-router-dom";
 import "../CSS/NavBar.css";
