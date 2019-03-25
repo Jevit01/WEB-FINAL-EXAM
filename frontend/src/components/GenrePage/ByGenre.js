@@ -1,3 +1,11 @@
+// Still missing all of functionality as Songs.js .
+// However, I"m getting some odd behaivor here as well.
+// All songs should show when page is listed and then
+// they should be filtered down on the submit.
+// I"m getting duplicates from yours and also getting
+// ones to append to previous list. Exp. pop, rock, then pop.
+// YOu'll get Grande a couple of times.
+
 import React, { Component } from "react";
 const axios = require("axios");
 
