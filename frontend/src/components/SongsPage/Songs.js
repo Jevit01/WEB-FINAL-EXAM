@@ -2,6 +2,10 @@ import React, { Component } from "react";
 import SongDisplay from "../SongDisplay.js";
 const axios = require("axios");
 
+//Page needs refreshing to see comments. Try and get these
+// to rerender. This is what react is good at :-).
+//Songs need link to poster to see their profile. 
+
 class Songs extends Component {
   state = {
     songs: [],
@@ -29,6 +33,7 @@ class Songs extends Component {
 
   handleSubmit = e => {
     e.preventDefault();
+    console.log(this.state.songs, this.state.input);
     let search = this.state.songs.filter(song => {
       return song.title.toLowerCase().includes(this.state.input.toLowerCase());
     });

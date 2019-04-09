@@ -1,3 +1,8 @@
+// For some reason I have to click unfavorite twice. 
+// It'd be fun to hunt down this bug. Good func though
+// but should also auto show comments like all songs not wait
+// for refresh.
+
 import React, { Component } from "react";
 import PostForm from "./PostForm.js";
 import SongDisplay from "../SongDisplay.js";
