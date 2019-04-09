@@ -1,3 +1,7 @@
+// This page not working properly. Missing it's functionality,
+// you should be reusing that songDisplay component that worked for
+// all songs.
+
 import React, { Component } from "react";
 const axios = require("axios");
 

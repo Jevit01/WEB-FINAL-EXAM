@@ -1,3 +1,10 @@
+//Please review the differences in joins.
+// You are using FULL JOIN which is causing an error on the Search
+// because title is coming back as Null. This is because of the full join.
+// Left join would have worked. Almost NEVER use Full join.
+// Very rare. YOu will most (90% ) of the time you join or
+// left join. Review these!
+
 const { db } = require("./Connect.js");
 
 const getOneSong = (req, res, next) => {
