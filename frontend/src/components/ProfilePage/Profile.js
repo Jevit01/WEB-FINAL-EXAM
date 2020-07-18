@@ -1,3 +1,14 @@
+// Think about only showing the form for the posted tab.
+// I was on favorites and didn't know that it was
+// working until I went to posted and saw I'd made about
+// five posts while trying :-).
+// Add CSS effect so I know which toggle i'm on.
+// Favoriting should still work.
+// Posts I should still be able to comment and
+// see whom posted. I should be able to go vist other
+// peoples profils. 
+
+
 import React, { Component } from "react";
 import PostForm from "./PostForm.js";
 import SongDisplay from "../SongDisplay.js";

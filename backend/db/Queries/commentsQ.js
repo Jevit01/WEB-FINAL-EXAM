@@ -46,6 +46,7 @@ const deleteComment = (req, res, next) => {
 };
 
 const editComment = (req, res) => {
+  log
   db.none(
     "UPDATE comments SET comment_body=${comment_body}, usercom_id=${usercom_id}, songcom_id=${songcom_id} WHERE id=${id}",
     {
